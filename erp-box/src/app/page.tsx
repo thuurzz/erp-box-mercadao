@@ -8,7 +8,11 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.menu}>
-        <h2>Menu</h2>
+        <div className={styles.titulo}>
+          <h2>Cigano Hortifrúti 🌿</h2>
+          <h2>+</h2>
+          <h2> Cheiro de Pimenta 🌶️</h2>
+        </div>
         <Button fullWidth variant="contained">
           <Link href="/produtos">Produtos</Link>
         </Button>
